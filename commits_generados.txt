@@ -1,0 +1,17 @@
+commit f4ad026dd34d69e96b057db86a8ffeec1d262906
+Author: Juanrra <guzmanperezjuanramon@gmail.com>
+Date:   Sat May 21 16:51:18 2016 -0700
+
+    Se elimino codigo basura de la vista view_libreria.php
+
+commit 8e8b594465d066e157b737df97a3cf35bd165c31
+Author: Juanrra <guzmanperezjuanramon@gmail.com>
+Date:   Sat May 21 16:12:26 2016 -0700
+
+    [2016-05-21] Se creo un nuevo controlador para los Lectores de la libreria
+
+commit e9a2bee0e1c2bea6827865ad8f411256de15a502
+Author: Juanrra <guzmanperezjuanramon@gmail.com>
+Date:   Sat May 21 16:07:26 2016 -0700
+
+    1re commit para agregar todo el proyecto a GIT
