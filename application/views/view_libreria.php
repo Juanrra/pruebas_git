@@ -40,14 +40,7 @@
 			<div class="chip">Test2<i class="material-icons">close</i></div>
 			<div class="chip">test3<i class="material-icons">close</i></div>
 
-        	<div class="card-panel card-panel hoverable">
-		    	<span class="blue-text text-darken-2">This is a card panel with dark blue text</span>
-		    </div>
-        	<div class="card-panel teal lighten-2">This is a card panel with a teal lighten-2 class</div>
-		   	
-		   	<div class="valign-wrapper">
-			  <h5 class="center-align">This should be vertically aligned</h5>
-			</div>
+        	
 
 			<div class="col s12 m8 offset-m2 l6 offset-l3">
 		        <div class="card-panel grey lighten-5 z-depth-1">
@@ -64,47 +57,8 @@
 		        </div>
 		    </div>
 
-
-
 	    </div>
-	    <div class="row">
-	    	<p class="flow-text">Grills...</p>
-	    	<div class="col s1">1</div>
-		    <div class="col s1">2</div>
-		    <div class="col s1">3</div>
-		    <div class="col s1">4</div>
-		    <div class="col s1">5</div>
-		    <div class="col s1">6</div>
-		    <div class="col s1">7</div>
-		    <div class="col s1">8</div>
-		    <div class="col s1">9</div>
-		    <div class="col s1">10</div>
-		    <div class="col s1">11</div>
-		    <div class="col s1">12</div>
-	    </div>
-
-	    <div class='row'>
-	    	
-	    	<div class="col s12 m12">
-      			<p class="z-depth-1">z-depth-1</p>
-		    </div>
-
-		    <div class="col s12 m11">
-		        <p class="z-depth-2">z-depth-2</p>
-		    </div>
-
-		    <div class="col s12 m10">
-		        <p class="z-depth-3">z-depth-3</p>
-		    </div>
-
-		    <div class="col s12 m6">
-		        <p class="z-depth-4">z-depth-4</p>
-		    </div>
-
-		    <div class="col s12 m6">
-		        <p class="z-depth-5">z-depth-5</p>
-		    </div>
-	    </div>
+	    
 
 	    <div class="row">
 	    	<blockquote>
