@@ -19,7 +19,7 @@
 <body>
 	<div class="container">
         <div class="row">
-        	<nav class='#81c784 green lighten-2'>
+        	<nav class='#a5d6a7 green lighten-3'>
 			  <div class="nav-wrapper">
 			    <a href="#" class="brand-logo"> Pruebas con Materialize</a>
 			    <ul id="nav-mobile" class="right hide-on-med-and-down">
