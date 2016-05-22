@@ -39,70 +39,31 @@
         	
 
 
-        <ul id="slide-out" class="side-nav fixed">
-      <li><a href="#!">First Sidebar Link</a></li>
-      <li><a href="#!">Second Sidebar Link</a></li>
-      <li class="no-padding">
-        <ul class="collapsible collapsible-accordion">
-          <li>
-            <a class="collapsible-header">Dropdown<i class="mdi-navigation-arrow-drop-down"></i></a>
-            <div class="collapsible-body">
-              <ul>
-                <li><a href="#!">First</a></li>
-                <li><a href="#!">Second</a></li>
-                <li><a href="#!">Third</a></li>
-                <li><a href="#!">Fourth</a></li>
-              </ul>
-            </div>
-          </li>
-        </ul>
-      </li>
-    </ul>
-    <ul class="right hide-on-med-and-down">
-      <li><a href="#!">First Sidebar Link</a></li>
-      <li><a href="#!">Second Sidebar Link</a></li>
-      <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="mdi-navigation-arrow-drop-down right"></i></a></li>
-      <ul id='dropdown1' class='dropdown-content'>
-        <li><a href="#!">First</a></li>
-        <li><a href="#!">Second</a></li>
-        <li><a href="#!">Third</a></li>
-        <li><a href="#!">Fourth</a></li>
-      </ul>
-    </ul>
-    <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-          
-
-
-
-
-
-
-			<div class="chip">
-			    <img src="http://localhost/pruebas/application/img/libreria_logo.png" alt="Contact Person">
-			    Juan Ramon Guzman
-			 </div>
-
-			<div class="chip">Tag<i class="material-icons">close</i></div>
-			<div class="chip">Test1<i class="material-icons">close</i></div>
-			<div class="chip">Test2<i class="material-icons">close</i></div>
-			<div class="chip">test3<i class="material-icons">close</i></div>
-
-        	
-
-			<div class="col s12 m8 offset-m2 l6 offset-l3">
-		        <div class="card-panel grey lighten-5 z-depth-1">
-		          	<div class="row valign-wrapper">
-			            <div class="col s2">
-			              <img src="http://localhost/pruebas/application/img/libreria_logo.png" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-			            </div>
-		            	<div class="col s10">
-		              		<span class="black-text">
-		                	This is a square image. Add the "circle" class to it to make it appear circular.
-		              		</span>
-		            	</div>
+	        <ul id="slide-out" class="side-nav fixed">
+		      <li><a href="#!">First Sidebar Link</a></li>
+		      <li><a href="#!">Second Sidebar Link</a></li>
+		      <li class="no-padding">
+		        <ul class="collapsible collapsible-accordion">
+		          <li>
+		            <a class="collapsible-header">Dropdown<i class="mdi-navigation-arrow-drop-down"></i></a>
+		            <div class="collapsible-body">
+		              <ul>
+		                <li><a href="#!">First</a></li>
+		                <li><a href="#!">Second</a></li>
+		                <li><a href="#!">Third</a></li>
+		                <li><a href="#!">Fourth</a></li>
+		              </ul>
 		            </div>
-		        </div>
-		    </div>
+		          </li>
+		        </ul>
+		      </li>
+		    </ul>
+		    <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+		          
+
+
+
+
 
 	    </div>
 	    
@@ -153,17 +114,7 @@
 
 	    </div>
 
-	    <div class='row'>
-	    	<ul id="dropdown2" class="dropdown-content">
-			    <li><a href="#!">one<span class="badge">1</span></a></li>
-			    <li><a href="#!">two<span class="new badge">1</span></a></li>
-			    <li><a href="#!">three</a></li>
-			</ul>
-			<a class="btn dropdown-button" href="#!" data-activates="dropdown2">Dropdown<i class="mdi-navigation-arrow-drop-down right"></i></a>
-			            
-
-	    </div>
-
+	    
 	    <div class='row'>
 
 			<a class="waves-effect waves-light btn">button</a>
