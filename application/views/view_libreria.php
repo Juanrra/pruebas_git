@@ -123,6 +123,44 @@
 			       
 	    </div>
 
+
+	    <div class="row">
+		
+			 <!-- Modal Trigger -->
+			  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal FOOTER</a>
+
+			  <!-- Modal Structure -->
+			  <div id="modal1" class="modal bottom-sheet">
+			    <div class="modal-content">
+			      <h4>Modal Header</h4>
+			      <p>A bunch of text</p>
+			    </div>
+			    <div class="modal-footer">
+			      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+			    </div>
+			  </div>
+
+
+
+
+
+			  <a class="modal-trigger waves-effect waves-light btn" href="#modal2">Modal</a>
+
+			  <!-- Modal Structure -->
+			  <div id="modal2" class="modal modal-fixed-footer">
+			    <div class="modal-content">
+			      <h4>Modal Header</h4>
+			      <p>A bunch of text</p>
+			    </div>
+			    <div class="modal-footer">
+			      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+			    </div>
+			  </div>
+
+
+		</div>
+
+
     </div>
 
 	
@@ -133,12 +171,32 @@
     <script type="text/javascript" src="http://localhost/pruebas/application/js/materialize.min.js"></script>
     <script type="text/javascript">
 
-    	 $('.button-collapse').sideNav({
-      menuWidth: 300, // Default is 240
-      edge: 'right', // Choose the horizontal origin
-      closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
-    }
-  );
+    	 
+    	 $(document).ready(function()
+    	 {
+    		// the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    		//$('.modal-trigger').leanModal();
+    		$('.modal-trigger').leanModal({
+    			//Opciones
+    			dismissible: true, // Modal can be dismissed by clicking outside of the modal
+			      opacity: .5, // Opacity of modal background
+			      in_duration: 1000, // Transition in duration
+			      out_duration: 500, // Transition out duration
+			      ready: function() { alert('Ready'); }, // Callback for Modal open
+			      complete: function() { alert('Closed'); } // Callback for Modal close
+    		});//<-- trigger para abrir todos los modales dependiendo su ID
+
+
+    		$('.button-collapse').sideNav({
+		      menuWidth: 300, // Default is 240
+		      edge: 'right', // Choose the horizontal origin
+		      closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+		    }
+  		);
+
+
+
+  		});
 
     </script>
 </body>
