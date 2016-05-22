@@ -14,21 +14,68 @@
 		html {
 		    font-family: GillSans, Calibri, Trebuchet, sans-serif;
 		}
+
+		 header, main, footer {
+      padding-left: 240px;
+    }
+
+    @media only screen and (max-width : 992px) {
+      header, main, footer {
+        padding-left: 0;
+      }
+    }
 	</style>
 </head>
 <body>
 	<div class="container">
+
+
+
+		
+
+
+
         <div class="row">
-        	<nav class='#a5d6a7 green lighten-3'>
-			  <div class="nav-wrapper">
-			    <a href="#" class="brand-logo"> Pruebas con Materialize</a>
-			    <ul id="nav-mobile" class="right hide-on-med-and-down">
-			      <li><a href="#">sass</a></li>
-			      <li><a href="#">sass <span class="new badge">4</span></a></li>
-			      <li><a href="#">sass</a></li>
-			    </ul>
-			  </div>
-			</nav>
+        	
+
+
+        <ul id="slide-out" class="side-nav fixed">
+      <li><a href="#!">First Sidebar Link</a></li>
+      <li><a href="#!">Second Sidebar Link</a></li>
+      <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+          <li>
+            <a class="collapsible-header">Dropdown<i class="mdi-navigation-arrow-drop-down"></i></a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="#!">First</a></li>
+                <li><a href="#!">Second</a></li>
+                <li><a href="#!">Third</a></li>
+                <li><a href="#!">Fourth</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="#!">First Sidebar Link</a></li>
+      <li><a href="#!">Second Sidebar Link</a></li>
+      <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="mdi-navigation-arrow-drop-down right"></i></a></li>
+      <ul id='dropdown1' class='dropdown-content'>
+        <li><a href="#!">First</a></li>
+        <li><a href="#!">Second</a></li>
+        <li><a href="#!">Third</a></li>
+        <li><a href="#!">Fourth</a></li>
+      </ul>
+    </ul>
+    <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+          
+
+
+
+
+
 
 			<div class="chip">
 			    <img src="http://localhost/pruebas/application/img/libreria_logo.png" alt="Contact Person">
@@ -133,5 +180,15 @@
 	<!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="http://localhost/pruebas/application/js/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="http://localhost/pruebas/application/js/materialize.min.js"></script>
+    <script type="text/javascript">
+
+    	 $('.button-collapse').sideNav({
+      menuWidth: 300, // Default is 240
+      edge: 'right', // Choose the horizontal origin
+      closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+    }
+  );
+
+    </script>
 </body>
 </html>
