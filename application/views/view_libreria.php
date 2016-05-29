@@ -57,7 +57,7 @@
 		    </ul>
 		    <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
 		          
-
+		    <h1>JUAN RAMON</h1>
 
 	    </div>
 	    
