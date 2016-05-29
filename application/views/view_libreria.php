@@ -47,8 +47,6 @@
 		              <ul>
 		                <li><a href="#!">First</a></li>
 		                <li><a href="#!">Second</a></li>
-		                <li><a href="#!">Third</a></li>
-		                <li><a href="#!">Fourth</a></li>
 		              </ul>
 		            </div>
 		          </li>
@@ -58,6 +56,8 @@
 		    <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
 		          
 		    <h1>JUAN RAMON</h1>
+                    <h1>Marco Antonio</h1>
+                    <h1>Emmanuel Alejandro</h1>
 
 	    </div>
 	    
