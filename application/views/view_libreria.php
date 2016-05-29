@@ -31,10 +31,6 @@
 
 
 
-		
-
-
-
         <div class="row">
         	
 
@@ -52,6 +48,8 @@
 		                <li><a href="#!">Second</a></li>
 		                <li><a href="#!">Third</a></li>
 		                <li><a href="#!">Fourth</a></li>
+                                <li><a href="#!">Five</a></li>
+                                <li><a href="#!">Six</a></li>
 		              </ul>
 		            </div>
 		          </li>
@@ -62,15 +60,12 @@
 		          
 
 
-
-
-
 	    </div>
 	    
-
 	    <div class="row">
 	    	<blockquote>
 		    	La siguiente información es solo para poblar una tabla HTML
+		    	<!--?php  phpinfo(); ?-->
 		    </blockquote>
 			<table class='highlight centered responsive-table'>
 		        <thead class='#4db6ac teal lighten-2'>
